@@ -140,13 +140,8 @@ h2 {
     box-shadow: var(--sombra);
 }
 
-.card ul,
-.card ol {
+.card ul {
     padding-left: 20px;
-}
-
-.card li {
-    margin-bottom: 6px;
 }
 
 
@@ -374,82 +369,24 @@ footer p {
 }
 
 
-/* ENLACES */
-
-.enlace-externo {
-    color: var(--color-secundario);
-    font-weight: bold;
-}
-
-.enlace-externo:hover {
-    text-decoration: none;
-}
-
-footer a {
-    color: var(--color-acento);
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-
-/* TABLA DE PLANES */
-
-.tabla-contenedor {
-    overflow-x: auto;
-    background: var(--color-blanco);
-    border-radius: var(--radio);
-    box-shadow: var(--sombra);
-}
-
-.tabla-planes {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.tabla-planes caption {
-    caption-side: bottom;
-    padding: 15px;
-    font-size: 14px;
-    color: #555555;
-}
-
-.tabla-planes th {
-    background: var(--color-principal);
-    color: var(--color-acento);
-    text-align: left;
-    padding: 14px 16px;
-}
-
-.tabla-planes td {
-    padding: 14px 16px;
-    border-bottom: 1px solid #e0e0e0;
-}
-
-.tabla-planes tbody tr:nth-child(even) {
-    background: var(--color-fondo);
-}
-
-.tabla-planes tbody tr:hover {
-    background-color: #fff1ea;
-}
-
-
-/* MAPA (IFRAME) */
-
-.mapa {
+/* VIDEO CORPORATIVO */
+.video-descripcion {
     max-width: 700px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.video-contenedor {
+    max-width: 800px;
     margin: auto;
     border-radius: var(--radio);
     overflow: hidden;
     box-shadow: var(--sombra);
+    background: var(--color-principal);
 }
 
-.mapa iframe {
-    display: block;
+.video-contenedor video {
     width: 100%;
-    height: 400px;
-    border: 0;
+    height: auto;
+    display: block;
 }
